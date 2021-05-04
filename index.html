@@ -269,10 +269,24 @@
       <div id="contact"></div>
       <div class="contact">
         <div class="bod">
-          <h3 class="sectionHeading">Let's Talk!</h3>
+          <h3 class="sectionHeading">Contact me!</h3>
         </div>
-        <p>My inbox is always open, feel free to reach out and I will get back to you soon!</p>
-        <a href="mailto:mouheb.hamza@EPISOUSSE.COM.TN" class="btn" id="sayhello" target="_blank">Say Hello</a>
+  <form name="contact" method="POST" data-netlify="true">
+                  <p>
+          <label >Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button class="btn" id="sayhello" type="submit">Contact</button>
+        </p>
+      </form>
+        
       </div>
       <div id="end">
       </div>
